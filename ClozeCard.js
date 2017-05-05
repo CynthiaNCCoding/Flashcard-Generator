@@ -7,19 +7,19 @@ function ClozeCard(text, cloze) {
 	this.cloze = cloze;
 	this.fullText = text;
 	this.partial = text.replace(cloze, "_______");
-	if (this.partial !== text) {
-		trigger = true;
-	}
-	if (trigger == false) {
-		console.log("ERROR! That is not the correct answer.");
-		this.cloze = "ERROR!";
-		this.fullText = "ERROR!";
-		this.partial = "ERROR!";
-		return;
-	}
+	// if (this.partial !== text) {
+	// 	trigger = true;
+	// }
+	// if (trigger == false) {
+	// 	console.log("ERROR! That is not the correct answer.");
+	// 	this.cloze = "ERROR!";
+	// 	this.fullText = "ERROR!";
+	// 	this.partial = "ERROR!";
+	// 	return;
+	// }
 }
 
-var brokenCloze = new ClozeCard("This doesn't work", "oops");
+// var brokenCloze = new ClozeCard("This doesn't work", "oops");
 
 
 module.exports = ClozeCard;

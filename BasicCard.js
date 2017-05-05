@@ -4,15 +4,15 @@
 
  function BasicCard(front, back) {
  console.log(this);
- this.front = front;
- this.back = back;
+ 	this.front = front;
+ 	this.back = back;
 }
 
 
-var moreBasics = new BasicCard ("question", "answer" );  
+// var moreBasics = new BasicCard ("question", "answer" );  
 
-console.log(moreBasics instanceof Basic);  
-console.log(moreBasics.front, moreBasics.back);
+// console.log(moreBasics instanceof BasicCard);  
+// console.log(moreBasics.front, moreBasics.back);
 
 
 module.exports = BasicCard;
