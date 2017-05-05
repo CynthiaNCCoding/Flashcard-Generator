@@ -10,6 +10,7 @@
 
 
 var moreBasics = new BasicCard ("question", "answer" );  
+
 console.log(moreBasics instanceof Basic);  
 console.log(moreBasics.front, moreBasics.back);
 
